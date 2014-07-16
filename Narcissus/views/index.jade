@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    div(class='panel panel-default hostpanel')
+        div(class='panel-heading')
+            h4(class='panel-title') VNC Viewer
+        div(class='panel-body')
+            div(class='form-group')
+                input(type='text', class='form-control input-sm', name='host', placeholder='Host', style='width: 163px;', value='10.211.55.3')
+            button(type='submit', class='btn btn-primary btn-sm' id='connect_btn') Connect

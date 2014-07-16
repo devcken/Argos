@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.default.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/jquery-2.0.0.min.js')
+    script(src='/javascripts/modernizr.js')
+    script(src='/javascripts/rfb/rfb.viewer.js')
+    script(src='/javascripts/rfb/socket/rfb.client.js')
+    script(src='/javascripts/rfb/protocol/messagehandler.js')
+    script(src='/javascripts/rfb/cryptography/tripledes.js')
+    script(src='/javascripts/rfb/cryptography/mode-ecb-min.js')
+    script(src='/javascripts/rfb/cryptography/pad-nopadding-min.js')
+
+  body
+    block content
